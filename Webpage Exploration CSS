@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+
+body{
+	font-family: "Dosis", sans-serif;
+}
+
+nav{
+	margin: 0px auto;
+	width: 1000px;
+	display: flex;
+}
+
+#logo{
+	width: 200px;
+	margin-right: 200px;
+}
+
+.menu{
+	color: black;
+	text-decoration: none;
+	margin-right: 40px;
+}
+
+#menu{
+	display: flex;
+	align-items: flex-start;
+	margin-top: 40px;
+}
+
+#intro1{
+	margin: 0px auto;
+	width: 1000px;
+	display: flex;
+	gap: 20px;
+}
+
+#right-p{
+	margin-top: 60px;
+}
+
+#exhibitions{
+	text-align: center;
+}
+
+#yoshitomo-nara{
+	text-decoration: none;
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	left: 750px;
+}
+
+#yoshitomo-text{
+	text-decoration: none;
+}
+
+#cauleen-smith{
+	position: relative;
+	margin-top: 600x;
+	margin-bottom: 50px;
+	left: 800px;
+}
+
+#not{
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	left: 750px;
+}
+
+.events-left{
+	float: left;
+}
+
+.reading{
+	float: left;
+}
+
+.art-class{
+	float: left;
+}
+
+.filmscreening{
+	float: left;
+}
