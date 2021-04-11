@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Andrea Chang</title>
+		<link rel="stylesheet" type="text/css" href="../css/hwpage.css"/>
+	</head>
+	<body>
+		<h1>Andrea Chang</h1>
+		<h2>Digital Craft Spring 2021</h2><br>
+		<div>
+			<h1>Week 3</h1>
+			<h2><a href="https://editor.p5js.org/achangarooo/sketches/zh2aeDa2Q">P5.JS Inspiration Sketch 1</a></h2>
+			<h2><a href="https://editor.p5js.org/achangarooo/sketches/OQiJQFwyu">P5.JS Inspiration Sketch 2</a></h2>
+			<h2><a href="https://editor.p5js.org/achangarooo/sketches/fO5U-n0E-">P5.JS Inspiration Sketch 3</a></h2>
+		</div>
+		<br>
+		<div>
+			<h1>Week 2: File Management & Style</h1>
+			<h2><a href="https://github.com/andreachang7/SP21-PUFY1225-DIGITAL-CRAFT/tree/main/homework/week2">Webpage Exploration Code 1</a></h2>
+		</div>
+		<br>
+		<div>
+			<h1>Week 1: Introduction</h1>
+			<h2><a href="https://docs.google.com/document/d/1DUbCxcT38EeNx1AD8c5eOWYqJ9K4mXLuGIH1IGqIOiA/edit?usp=sharing">Exploring Websites Part I</a></h2>
+			<h2><a href="file:///Users/Ashley/Desktop/AndreaChang.html">HTML Homework Boilerplate</a></h2>
+		</div>
+</html>
