@@ -1,0 +1,71 @@
+const diam = 50;
+const xPos = 300;
+const yPos = 300;
+let g = "#BDB76B";
+
+function setup() {
+  createCanvas(600, 600);
+  noLoop();
+  noStroke();
+}
+
+function draw() {
+  background("white");
+  fill(g);
+  ellipse(xPos, yPos, diam, diam);
+  //inner circle
+    g="#8FBC8F";
+  fill(g);
+  ellipse(xPos + 35, yPos + 45, diam +15, diam + 15);
+  ellipse(xPos + 55, yPos - 15, diam + 15, diam +15);
+  ellipse(xPos , yPos - 55, diam + 15, diam +15);
+  ellipse(xPos -55, yPos - 15, diam + 15, diam +15);
+  ellipse(xPos -30, yPos + 45, diam + 15, diam +15);
+  //second circle
+    g="#3CB371";
+  fill(g);
+  ellipse(xPos + 65, yPos - 90, diam + 30, diam +30);
+  ellipse(xPos + 120, yPos - 40, diam + 30, diam +30);
+  ellipse(xPos + 110, yPos + 35, diam + 30, diam +30);
+  ellipse(xPos + 80, yPos + 105, diam + 30, diam +30);
+  ellipse(xPos + 5, yPos +110, diam + 30, diam +30);
+  ellipse(xPos - 75, yPos +105, diam + 30, diam +30);
+  ellipse(xPos - 100, yPos +40, diam + 30, diam +30);
+  ellipse(xPos - 125, yPos -30, diam + 30, diam +30);
+  ellipse(xPos - 70, yPos -85, diam + 30, diam +30);
+  ellipse(xPos- 3, yPos -130, diam + 30, diam +30);
+  //third circle
+    g="#2E8B57";
+  fill(g);
+  ellipse(xPos - 155, yPos - 115, diam + 50, diam + 50);
+  ellipse(xPos - 80, yPos - 175, diam + 50, diam + 50);
+  ellipse(xPos, yPos - 220, diam + 50, diam + 50);
+  ellipse(xPos +75, yPos - 175, diam + 50, diam + 50);
+  ellipse(xPos +155, yPos - 120, diam + 50, diam + 50);
+  ellipse(xPos +210, yPos - 35, diam + 50, diam + 50);
+  ellipse(xPos +195, yPos +60, diam + 50, diam + 50);
+  ellipse(xPos +155, yPos +150, diam + 50, diam + 50);
+  ellipse(xPos +70, yPos +195, diam + 50, diam + 50);
+  ellipse(xPos - 25, yPos +195, diam + 50, diam + 50);
+  ellipse(xPos - 115, yPos +180, diam + 50, diam + 50);
+  ellipse(xPos - 160, yPos +105, diam + 50, diam + 50);
+  ellipse(xPos - 200, yPos +20, diam + 50, diam + 50);
+  ellipse(xPos - 210, yPos -50, diam + 50, diam + 50);
+  //fourth circle
+    g="#2F4F4F";
+  fill(g);
+  ellipse(xPos - 235, yPos +200, diam + 100, diam + 100);
+  ellipse(xPos - 125, yPos +300, diam + 100, diam + 100);
+  ellipse(xPos +25, yPos +310, diam + 100, diam + 100);
+  ellipse(xPos +170, yPos +270, diam + 100, diam + 100);
+  ellipse(xPos +275, yPos +170, diam + 100, diam + 100);
+  ellipse(xPos +315, yPos +30, diam + 100, diam + 100);
+  ellipse(xPos +300, yPos -120, diam + 100, diam + 100);
+  ellipse(xPos +205, yPos -235, diam + 100, diam + 100);
+  ellipse(xPos +85, yPos -310, diam + 100, diam + 100);
+  ellipse(xPos - 65, yPos -315, diam + 100, diam + 100);
+  ellipse(xPos - 185, yPos -235, diam + 100, diam + 100);
+  ellipse(xPos - 295, yPos -135, diam + 100, diam + 100);
+  ellipse(xPos - 320, yPos + 5, diam + 100, diam + 100);
+  ellipse(xPos - 275, yPos + 100, diam + 75, diam +75);
+}
