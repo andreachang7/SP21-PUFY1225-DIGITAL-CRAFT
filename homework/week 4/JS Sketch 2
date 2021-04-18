@@ -1,0 +1,36 @@
+const diam = 50;
+const xPos = 100;
+const yPos = 100;
+let g = "#E0FFFF";
+function setup() {
+  createCanvas(600, 600);
+  noLoop();
+  noStroke();
+}
+
+function draw() {
+  background("black");
+  fill(g);
+  ellipse(xPos, yPos, diam, diam);
+    g="#ADD8E6"
+  fill(g);
+  ellipse(xPos + 25, yPos + 35, diam + 50, diam +50);
+    g = "#87CEFA";
+  fill(g);
+  ellipse(xPos + 75, yPos + 85, diam + 100, diam + 100);
+    g="#00BFFF";
+  fill(g);
+  ellipse(xPos + 120, yPos + 150, diam + 150, diam + 150);
+    g = "#4682B4";
+  fill(g);
+  ellipse(xPos + 180, yPos + 215, diam + 200, diam + 200);
+    g="#4169E1";
+  fill(g);
+  ellipse(xPos + 250, yPos + 320, diam + 300, diam + 300);
+    g="#0000CD";
+  fill(g);
+  ellipse(xPos + 350, yPos + 425, diam + 400, diam + 400);
+    g="#000080";
+  fill(g);
+  ellipse(xPos + 425, yPos + 550, diam + 500, diam + 500);
+}
