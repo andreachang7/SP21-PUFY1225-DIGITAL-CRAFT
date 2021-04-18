@@ -1,0 +1,45 @@
+  const diam = 250;
+  const xPos = 300;
+  const yPos = 300;
+  let g="#CD5C5C";
+
+function setup() {
+  createCanvas(600, 600);
+  noLoop();
+  noStroke();
+}
+
+function draw() {
+  background("white");
+  fill(g);
+  //red circle
+  ellipse(xPos+165, yPos-165, diam, diam);
+  ellipse(xPos+50, yPos+110, diam+100, diam+100);
+  ellipse(xPos-95, yPos-155, diam+25, diam+25);
+  ellipse(xPos+275, yPos+2, diam-100, diam-100);
+  ellipse(xPos-275, yPos+70, diam+50, diam+50);
+  ellipse(xPos-350, yPos+125, diam-75, diam-75);
+  ellipse(xPos-150, yPos+270, diam-75, diam-75);
+  ellipse(xPos+375, yPos+230, diam+100, diam+100);
+  //orange circle
+    g="#FFA500";
+  fill(g);
+  ellipse(xPos+175, yPos-115, diam-100, diam-100);
+  ellipse(xPos-25, yPos+100, diam-50, diam-50);
+  ellipse(xPos-140, yPos-175, diam-75, diam-75);
+  ellipse(xPos-250, yPos+30, diam-50, diam-50);
+  ellipse(xPos-125, yPos+250, diam-150, diam-150);
+  ellipse(xPos+295, yPos+200, diam-75, diam-75);
+  ellipse(xPos+250, yPos+ 5, diam -150, diam-150);
+  
+  //pink circle
+    g="#FFE4E1";
+  fill(g);
+  ellipse(xPos+165, yPos-135, diam-150, diam-150);
+  ellipse(xPos-75, yPos+100, diam-150, diam-150);
+  ellipse(xPos+240, yPos+10, diam-175, diam-175);
+  ellipse(xPos-175, yPos-185, diam-150, diam-150);
+  ellipse(xPos-225, yPos+5, diam-125, diam-125);
+  ellipse(xPos-115, yPos+245, diam-175, diam-175);
+  ellipse(xPos+265, yPos+185, diam-150, diam-150);
+}
